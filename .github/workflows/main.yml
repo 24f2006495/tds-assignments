@@ -1,7 +1,11 @@
 name: GA0 Question 13
 
 on:
-  # Run from Actions tab
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+    
   workflow_dispatch:
 
 jobs:
