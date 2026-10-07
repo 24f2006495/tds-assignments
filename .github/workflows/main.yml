@@ -1,3 +1,9 @@
+name: GA0 Question 13
+
+on:
+  # Run from Actions tab
+  workflow_dispatch:
+
 jobs:
   test:
     steps:
